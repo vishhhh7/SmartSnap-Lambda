@@ -27,5 +27,5 @@ jobs:
       - name: Deploy to AWS Lambda
         run: |
           aws lambda update-function-code \
-            --function-name YOUR_LAMBDA_FUNCTION_NAME \
+            --function-name SmartSnapLambda \
             --zip-file fileb://lambda.zip
