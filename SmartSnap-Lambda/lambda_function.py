@@ -136,7 +136,7 @@ Resized File:
 """
     )
 
-    print("SNS notification sent")
+    print("SNS notification sent successfully")
 
     return {
         "statusCode": 200
