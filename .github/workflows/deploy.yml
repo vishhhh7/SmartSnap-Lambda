@@ -1,4 +1,3 @@
-```yaml
 name: Deploy Lambda Function
 
 on:
@@ -28,6 +27,5 @@ jobs:
       - name: Deploy to AWS Lambda
         run: |
           aws lambda update-function-code \
-            --function-name SmartSnapLambda \
+            --function-name YOUR_LAMBDA_FUNCTION_NAME \
             --zip-file fileb://lambda.zip
-```
